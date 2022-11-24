@@ -1,0 +1,1578 @@
+<!-- stop reading code dwud, just stop -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/e548e16d4f.js" crossorigin="anonymous"></script>
+    <meta name="keywords" content="TGamerXD, TGamer, TGamerXD Website">
+    <meta name="description" content="Hey there, I'm TGamerXD. I'm a Website Developer, with over 1 and a half years of experience in web development.">
+    <meta name="author" content="TGamerXD">
+    <title>TGamerXD</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#", class="logo koolglitch"><span class="logotxt">TGAMER</span><span class="xd">XD</span></a>
+        <ul class="menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="bars fas fa-bars"></i></li>
+        </ul>
+    </nav>
+    <section class="home" id="home">
+        <img src="images/stars.png" id="stars">
+        <img src="images/moon.png" id="moon">
+        <img src="images/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">TGamerXD</h2>
+        <a href="#about", id="btn">About Me</a>
+        <img src="images/mountains_front.png" id="mountains_front">
+    </section>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            nav.style.top = value * 0.5 + 'px';
+        })
+    </script>
+    <div class="about max-width" id="about">  
+        <div class="abouts">
+            <div class="about-content">
+                <div class="text-1">Hello, I'm</div>
+                <div class="text-2 koolglitch">TGamer<span class="xd">XD</span></div>
+                <div class="text-3"><span class="auto-type"></span></div>
+            </div>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["A Web Developer", "A Gamer", "An Artist", "A Musician", "IT Enthusiast", ],
+                    typeSpeed: 150,
+                    backSpeed: 100,
+                    loop: true
+                })
+            </script>          
+        </div>
+    </div>
+    <a href="#home" class="gototop"><i class="fas fa-chevron-up"></i></a>
+    <div class="skills" id="skills">       
+        <section class="skill-bg">
+            <div class="custom-shape-divider-top-1667578317">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container max-width">
+                <h1>My &nbsp;Skills</h1>
+                <ul class="box">
+                    <li>
+                        <h5>HTML</h5>
+                        <span class="bar bar1"></span>
+                    </li>
+                    <li>
+                        <h5>CSS</h5>
+                        <span class="bar bar2"></span>
+                    </li>
+                    <li>
+                        <h5>PYTHON</h5>
+                        <span class="bar bar3"></span>
+                    </li>
+                    <li>
+                        <h5>JAVA</h5>
+                        <span class="bar bar4"></span>
+                    </li>
+                    <!-- <li>
+                        <h5>GAMING</h5>
+                        <span class="bar bar5"></span>
+                    </li> -->
+                </ul>
+            </div>            
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <i class="fas fa-apple-alt"></i>
+                    <i class="fab fa-android"></i>
+                    <i class="fas fa-battery-half"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-file"></i>
+                    <i class="fas fa-headphones"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-power-off"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="welcome.php" method="post">
+            <div class="input-group">
+                <input type="text" id="name" required name="name">
+                <label for="name">Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="email" required name="email">
+                <label for="email">Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="5" name="remark"></textarea>
+                <label for="message">Leave a message</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright &copy;2022-2023. All Rights Reserved. Made by <span>TGamerXD</span></p>
+    </footer>
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+
+        }
+
+    </script>
+</body>
+</html>
